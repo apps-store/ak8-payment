@@ -1,0 +1,36 @@
+{
+    "name": "apps-store/ak8-payment",
+    "description": "Package for Payment Methods of AK8",
+    "license": "MIT",
+    "keywords": ["payment", "ak8"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elio Martins",
+            "homepage": "http://datasys.com.ve/",
+            "email": "datasysca@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.laravel.ak8.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*",
+        "illuminate/database": "5.1.*",
+        "illuminate/queue": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AK8\\PaymentMethods\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/apps-store/ak8-payment/issues",
+        "wiki": "https://github.com/apps-store/ak8-payment"
+    },
+    "minimum-stability": "stable"
+}
